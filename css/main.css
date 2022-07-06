@@ -1,0 +1,278 @@
+/* Спецификация */
+@font-face {
+    font-family: 'Gill Sans MT';
+    src: url('GillSansMT-Bold.eot');
+    src: url('GillSansMT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GillSansMT-Bold.woff2') format('woff2'),
+        url('GillSansMT-Bold.woff') format('woff'),
+        url('GillSansMT-Bold.svg#GillSansMT-Bold') format('svg')
+        url('../fonts/GillSansMT-Bold.ttf') format(truetype);
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: 'Gill Sans MT';
+    src: url('GillSansMT.eot');
+    src: url('GillSansMT.eot?#iefix') format('embedded-opentype'),
+        url('GillSansMT.woff2') format('woff2'),
+        url('GillSansMT.woff') format('woff'),
+        url('GillSansMT.svg#GillSansMT') format('svg')
+        url('../fonts/GillSansMT.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+button,
+button:hover,
+button:focus {
+    font-family: inherit;
+    outline: none;
+    border: none;
+}
+
+h1,h2,h3,h4,h5,h5,h6 {
+    font-weight: bold;
+    color: #26272d;
+    line-height: 1.2em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.paragraph {
+    color: #8c8f94;
+}
+
+ul,li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #26272d!important;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn {
+    text-align: center;
+    display: block;
+    width: 132px;
+    border-radius: 21px;
+    background-color: #267df4;
+    color: #fff!important;
+    padding: 10px 0;
+    transition: all 0.5s ease;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.btn:hover {
+    background: #1660c9;
+    transition: all 0.5s ease;
+}
+
+/* Первый экран */
+
+.header {
+    background: url('../img/img4.png') no-repeat center top / cover;
+    padding: 58px 0 0;
+}
+
+.burger {
+    background: url('../img/burger.png');
+    width: 20px;
+    height: 12px;
+    margin: auto 30px auto 0;
+}
+
+.logo {
+    background: url('../img/logo.png') no-repeat center;
+    display: block;
+    width: 133px;
+    height: 15px;
+    margin: auto;
+}
+
+.menu {
+    margin: 0 auto;
+}
+
+.menu__item {
+    margin-right: 45px;
+}
+
+.menu__item:hover {
+    color: #8c8f94!important;
+}
+
+.menu__different {
+    color: #8c8f94;
+}
+
+.btn-header {
+    margin-left: 25px;
+    border: none;
+}
+
+.btn-header__img {
+    margin-right: 5px;
+}
+
+.nav-menu {
+    margin: 0 auto;
+}
+
+.offer {
+    padding: 132px 0 ;
+}
+
+.offer__title {
+    text-align: center;
+    font-size: 62px;
+}
+
+.offer__text {
+    max-width: 780px;
+    margin: 39px 0 64px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.offer__btn {
+    border: 1px solid #26272d;
+    background: none;
+    color: #26272d!important;
+    margin: 0 auto 55px;
+    border-radius: 25px;
+    width: 205px;
+    transition: all 0.5s ease;
+}
+
+.offer__img {
+    margin-right: 10px;
+}
+
+.header-img {
+    width: 369px;
+    height: 455px;
+}
+
+/* Trusted */
+
+.trusted {
+    padding: 123px 0;
+}
+
+.info-item__img {
+    width: 42px;
+    height: 51px;
+}
+
+.info-item__title {
+    font-size: 26px;
+    margin: 43px 0 47px;
+}
+
+.info-item__text {
+    max-width: 550px;
+}
+
+/* Protected */
+
+.protected {
+    padding: 116px 0;
+}
+
+.iphone {
+    margin-left: -56px;
+}
+
+.protection {
+    max-width: 471px;
+}
+
+.protection__title {
+    margin-bottom: 74px;
+}
+
+.protect {
+    display: block;
+}
+
+.protection__btn {
+    width: 202px;
+    height: 42px;
+}
+
+.pro-img {
+    margin-left: 52px;
+}
+
+.protected__btn {
+    border: 1px solid #26272d;
+    background: none;
+    color: #26272d!important;
+    margin: 0 auto 55px 20px!important;
+    border-radius: 25px;
+    width: 142px;
+    transition: all 0.5s ease;
+}
+
+/* Map  */
+
+.map {
+    padding: 171px 0 0;
+}
+
+.map__title {
+    margin-bottom: 67px;
+}
+
+.partners__title {
+    margin: 67px 0 30px;
+}
+
+.map-icon__dropbox {
+    background: url('../img/Dropbox_Logo.png');
+    display: block;
+    margin-right: 30px;
+    width: 125px;
+    height: 34px;
+}
+
+.map-icon__evernote {
+    display: block;
+    background: url('../img/Evernote_Logo.png');
+    width: 138px;
+    height: 35px;
+}
+
+.map-img {
+    margin-left: 170px;
+}
+
+/* Footer */
+
+.footer {
+    padding: 244px 0 0;
+}
+
+.footer-paragraph {
+    margin: 31px 0 28px;
+}
